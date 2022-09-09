@@ -5,12 +5,52 @@ body{
 }
 
 h1 {
-  margin-top: 0px;
+  margin: 50px auto 0 auto;
+  font-size: 5.26em;
+  color: #4C0033;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #4C0033;
+  font-weight: normal;
+}
+
+h3 {
+  color: #E3C770;
 }
 
 p{
   margin-top: 0px;
   font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color: #E3C770;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  letter-spacing: .5rem;
+  transition: 1s;
+}
+
+
+hr {
+  border-style: dotted none none;
+  border-color: #472D2D;
+  border-width: 5px;
+  width: 3%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #4C0033;
+  margin-top: 50px;
+  color: #E3C770;
 }
 
 .top-container{
@@ -43,4 +83,43 @@ p{
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.skills-row {
+  width: 50%;
+  display: block;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.pull-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+.marg {
+  margin-bottom: 50px;
+}
+
+.btn {
+  border: 1px solid #4C0033;
+  background-color: #4C0033;
+  height: 20%;
+  width: 30%;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
 }
